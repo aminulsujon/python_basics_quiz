@@ -1,0 +1,754 @@
+[
+    {
+        "question": "Which data type is used for text?",
+        "options": ["int", "float", "str", "bool"],
+        "answer": "str"
+    },
+    {
+        "question": "Which data type stores whole numbers?",
+        "options": ["float", "int", "str", "bool"],
+        "answer": "int"
+    },
+    {
+        "question": "Which keyword is used to define a function?",
+        "options": ["func", "define", "def", "function"],
+        "answer": "def"
+    },
+    {
+        "question": "What is the output of 5 + 3 * 2?",
+        "options": ["16", "11", "10", "8"],
+        "answer": "11"
+    },
+    {
+        "question": "Which operator is used for exponentiation?",
+        "options": ["^", "**", "*", "//"],
+        "answer": "**"
+    },
+    {
+        "question": "Which operator is used for floor division?",
+        "options": ["/", "//", "%", "**"],
+        "answer": "//"
+    },
+    {
+        "question": "What symbol is used for comments in Python?",
+        "options": ["//", "#", "/* */", "--"],
+        "answer": "#"
+    },
+    {
+        "question": "Which data type is mutable?",
+        "options": ["tuple", "str", "list", "int"],
+        "answer": "list"
+    },
+    {
+        "question": "Which data type stores key-value pairs?",
+        "options": ["list", "tuple", "dict", "set"],
+        "answer": "dict"
+    },
+    {
+        "question": "Which function displays output?",
+        "options": ["input()", "display()", "show()", "print()"],
+        "answer": "print()"
+    },
+
+    {
+        "question": "Which function takes user input?",
+        "options": ["print()", "input()", "read()", "scan()"],
+        "answer": "input()"
+    },
+    {
+        "question": "Which keyword is used for decision making?",
+        "options": ["if", "for", "while", "def"],
+        "answer": "if"
+    },
+    {
+        "question": "Which loop is used to iterate over a sequence?",
+        "options": ["while", "do-while", "for", "loop"],
+        "answer": "for"
+    },
+    {
+        "question": "Which loop runs until a condition becomes false?",
+        "options": ["for", "repeat", "while", "foreach"],
+        "answer": "while"
+    },
+    {
+        "question": "What does len() return?",
+        "options": ["Value", "Index", "Length", "Type"],
+        "answer": "Length"
+    },
+    {
+        "question": "Which operator checks equality?",
+        "options": ["=", "==", "!=", "<>"],
+        "answer": "=="
+    },
+    {
+        "question": "Which operator checks inequality?",
+        "options": ["==", "!=", "=", "<="],
+        "answer": "!="
+    },
+    {
+        "question": "What is the result of True and False?",
+        "options": ["True", "False", "None", "0"],
+        "answer": "False"
+    },
+    {
+        "question": "Which keyword exits a loop?",
+        "options": ["exit", "stop", "break", "pass"],
+        "answer": "break"
+    },
+    {
+        "question": "Which keyword skips the current iteration?",
+        "options": ["skip", "continue", "break", "pass"],
+        "answer": "continue"
+    },
+
+    {
+        "question": "Which keyword does nothing but avoids errors?",
+        "options": ["break", "pass", "continue", "skip"],
+        "answer": "pass"
+    },
+    {
+        "question": "Which data type is immutable?",
+        "options": ["list", "dict", "set", "tuple"],
+        "answer": "tuple"
+    },
+    {
+        "question": "Which method adds an element to a list?",
+        "options": ["add()", "append()", "insert()", "push()"],
+        "answer": "append()"
+    },
+    {
+        "question": "Which method removes last element from list?",
+        "options": ["remove()", "delete()", "pop()", "clear()"],
+        "answer": "pop()"
+    },
+    {
+        "question": "Which method removes all elements from list?",
+        "options": ["pop()", "clear()", "remove()", "delete()"],
+        "answer": "clear()"
+    },
+    {
+        "question": "Which keyword creates a class?",
+        "options": ["class", "object", "def", "struct"],
+        "answer": "class"
+    },
+    {
+        "question": "Which function converts string to integer?",
+        "options": ["int()", "str()", "float()", "eval()"],
+        "answer": "int()"
+    },
+    {
+        "question": "Which function converts integer to string?",
+        "options": ["int()", "str()", "bool()", "float()"],
+        "answer": "str()"
+    },
+    {
+        "question": "Which symbol is used for indexing?",
+        "options": ["()", "{}", "[]", "<>"],
+        "answer": "[]"
+    },
+    {
+        "question": "Indexing in Python starts from?",
+        "options": ["1", "0", "-1", "2"],
+        "answer": "0"
+    },
+
+    {
+        "question": "Which keyword handles exceptions?",
+        "options": ["try", "catch", "error", "handle"],
+        "answer": "try"
+    },
+    {
+        "question": "Which keyword catches exceptions?",
+        "options": ["except", "catch", "error", "finally"],
+        "answer": "except"
+    },
+    {
+        "question": "Which block runs always?",
+        "options": ["try", "except", "finally", "error"],
+        "answer": "finally"
+    },
+    {
+        "question": "Which function returns object type?",
+        "options": ["id()", "type()", "len()", "dir()"],
+        "answer": "type()"
+    },
+    {
+        "question": "Which keyword imports a module?",
+        "options": ["include", "import", "using", "require"],
+        "answer": "import"
+    },
+    {
+        "question": "Which module is used for randomization?",
+        "options": ["math", "random", "sys", "os"],
+        "answer": "random"
+    },
+    {
+        "question": "Which function shuffles a list?",
+        "options": ["randomize()", "shuffle()", "mix()", "sort()"],
+        "answer": "shuffle()"
+    },
+    {
+        "question": "Which file format is used for data storage?",
+        "options": ["TXT", "XML", "JSON", "HTML"],
+        "answer": "JSON"
+    },
+    {
+        "question": "Which function loads JSON data?",
+        "options": ["json.read()", "json.load()", "json.open()", "json.fetch()"],
+        "answer": "json.load()"
+    },
+
+    {
+        "question": "Which function writes JSON data?",
+        "options": ["json.write()", "json.save()", "json.dump()", "json.store()"],
+        "answer": "json.dump()"
+    },
+    {
+        "question": "Which keyword opens a file?",
+        "options": ["open", "file", "read", "load"],
+        "answer": "open"
+    },
+    {
+        "question": "Which mode reads a file?",
+        "options": ["w", "a", "r", "x"],
+        "answer": "r"
+    },
+    {
+        "question": "Which mode writes a file?",
+        "options": ["r", "w", "a", "x"],
+        "answer": "w"
+    },
+    {
+        "question": "Which operator joins strings?",
+        "options": ["*", "+", "-", "/"],
+        "answer": "+"
+    },
+    {
+        "question": "Which function returns length of string?",
+        "options": ["size()", "count()", "len()", "length()"],
+        "answer": "len()"
+    },
+    {
+        "question": "Which keyword defines a loop?",
+        "options": ["repeat", "for", "loop", "iterate"],
+        "answer": "for"
+    },
+    {
+        "question": "Which data type stores True or False?",
+        "options": ["int", "bool", "str", "float"],
+        "answer": "bool"
+    },
+    {
+        "question": "Which function ends the program?",
+        "options": ["exit()", "stop()", "quit()", "end()"],
+        "answer": "quit()"
+    },
+    {
+        "question": "Which keyword is used to create a variable in Python?",
+        "options": ["var", "let", "auto", "None"],
+        "answer": "None"
+    },
+    {
+        "question": "Which symbol is used for assignment?",
+        "options": ["==", "=", "!=", "<="],
+        "answer": "="
+    },
+    {
+        "question": "What does type(10) return?",
+        "options": ["int", "<class 'int'>", "number", "integer"],
+        "answer": "<class 'int'>"
+    },
+    {
+        "question": "Which function converts float to int?",
+        "options": ["float()", "str()", "int()", "bool()"],
+        "answer": "int()"
+    },
+    {
+        "question": "What is the output of int(5.9)?",
+        "options": ["6", "5", "5.9", "Error"],
+        "answer": "5"
+    },
+    {
+        "question": "Which operator performs modulus operation?",
+        "options": ["/", "//", "%", "**"],
+        "answer": "%"
+    },
+    {
+        "question": "What is the output of 10 % 3?",
+        "options": ["1", "3", "0", "10"],
+        "answer": "1"
+    },
+    {
+        "question": "Which comparison operator means 'greater than'?",
+        "options": [">", "<", ">=", "<="],
+        "answer": ">"
+    },
+    {
+        "question": "Which operator checks less than or equal?",
+        "options": ["<", ">", "<=", "=="],
+        "answer": "<="
+    },
+    {
+        "question": "What is the output of True or False?",
+        "options": ["True", "False", "0", "1"],
+        "answer": "True"
+    },
+
+    {
+        "question": "Which logical operator returns True if both conditions are True?",
+        "options": ["or", "and", "not", "&"],
+        "answer": "and"
+    },
+    {
+        "question": "Which keyword is used to define a block in Python?",
+        "options": ["{}", "begin", "indentation", "end"],
+        "answer": "indentation"
+    },
+    {
+        "question": "Which statement is used to handle multiple conditions?",
+        "options": ["if", "else", "elif", "switch"],
+        "answer": "elif"
+    },
+    {
+        "question": "What happens if no condition matches in if-elif?",
+        "options": ["Error", "Program stops", "else runs", "Nothing"],
+        "answer": "else runs"
+    },
+    {
+        "question": "Which loop is best when number of iterations is known?",
+        "options": ["while", "for", "do", "repeat"],
+        "answer": "for"
+    },
+    {
+        "question": "Which loop is best when condition is unknown?",
+        "options": ["for", "while", "foreach", "loop"],
+        "answer": "while"
+    },
+    {
+        "question": "What does range(5) generate?",
+        "options": ["0 to 5", "1 to 5", "0 to 4", "1 to 4"],
+        "answer": "0 to 4"
+    },
+    {
+        "question": "Which keyword stops a loop completely?",
+        "options": ["stop", "break", "exit", "end"],
+        "answer": "break"
+    },
+    {
+        "question": "Which keyword skips one loop iteration?",
+        "options": ["pass", "continue", "skip", "next"],
+        "answer": "continue"
+    },
+    {
+        "question": "Which keyword is used to define a function?",
+        "options": ["function", "def", "fun", "define"],
+        "answer": "def"
+    },
+
+    {
+        "question": "Which function returns the maximum value?",
+        "options": ["max()", "top()", "high()", "maximum()"],
+        "answer": "max()"
+    },
+    {
+        "question": "Which function returns the minimum value?",
+        "options": ["min()", "low()", "small()", "minimum()"],
+        "answer": "min()"
+    },
+    {
+        "question": "Which function returns absolute value?",
+        "options": ["abs()", "round()", "int()", "float()"],
+        "answer": "abs()"
+    },
+    {
+        "question": "Which function rounds a number?",
+        "options": ["round()", "abs()", "floor()", "ceil()"],
+        "answer": "round()"
+    },
+    {
+        "question": "Which data type stores multiple values?",
+        "options": ["int", "str", "list", "bool"],
+        "answer": "list"
+    },
+    {
+        "question": "Which list index refers to the last element?",
+        "options": ["0", "-1", "1", "len"],
+        "answer": "-1"
+    },
+    {
+        "question": "Which method adds item at specific index?",
+        "options": ["append()", "insert()", "add()", "extend()"],
+        "answer": "insert()"
+    },
+    {
+        "question": "Which method combines two lists?",
+        "options": ["append()", "extend()", "add()", "merge()"],
+        "answer": "extend()"
+    },
+    {
+        "question": "Which method sorts a list?",
+        "options": ["sort()", "order()", "arrange()", "sorted()"],
+        "answer": "sort()"
+    },
+    {
+        "question": "Which function returns sorted list?",
+        "options": ["sort()", "sorted()", "order()", "arrange()"],
+        "answer": "sorted()"
+    },
+
+    {
+        "question": "Which data type is unordered?",
+        "options": ["list", "tuple", "set", "str"],
+        "answer": "set"
+    },
+    {
+        "question": "Which symbol defines a dictionary?",
+        "options": ["[]", "()", "{}", "<>"],
+        "answer": "{}"
+    },
+    {
+        "question": "Which method gets value from dictionary?",
+        "options": ["get()", "fetch()", "read()", "value()"],
+        "answer": "get()"
+    },
+    {
+        "question": "Which method returns dictionary keys?",
+        "options": ["keys()", "values()", "items()", "all()"],
+        "answer": "keys()"
+    },
+    {
+        "question": "Which method returns dictionary values?",
+        "options": ["keys()", "values()", "items()", "all()"],
+        "answer": "values()"
+    },
+    {
+        "question": "Which method removes key from dictionary?",
+        "options": ["remove()", "pop()", "delete()", "clear()"],
+        "answer": "pop()"
+    },
+    {
+        "question": "Which keyword deletes a variable?",
+        "options": ["remove", "delete", "del", "clear"],
+        "answer": "del"
+    },
+    {
+        "question": "Which function returns object memory address?",
+        "options": ["id()", "type()", "addr()", "memory()"],
+        "answer": "id()"
+    },
+    {
+        "question": "Which keyword is used for error handling?",
+        "options": ["try", "error", "catch", "handle"],
+        "answer": "try"
+    },
+    {
+        "question": "Which block handles errors?",
+        "options": ["except", "finally", "else", "error"],
+        "answer": "except"
+    },
+
+    {
+        "question": "Which module handles JSON?",
+        "options": ["json", "data", "file", "store"],
+        "answer": "json"
+    },
+    {
+        "question": "Which function converts Python to JSON?",
+        "options": ["json.dump()", "json.load()", "json.read()", "json.write()"],
+        "answer": "json.dump()"
+    },
+    {
+        "question": "Which function converts JSON to Python?",
+        "options": ["json.dump()", "json.load()", "json.open()", "json.parse()"],
+        "answer": "json.load()"
+    },
+    {
+        "question": "Which mode appends data to file?",
+        "options": ["r", "w", "a", "x"],
+        "answer": "a"
+    },
+    {
+        "question": "Which keyword ensures file is closed automatically?",
+        "options": ["open", "close", "with", "auto"],
+        "answer": "with"
+    },
+    {
+        "question": "Which module provides random numbers?",
+        "options": ["math", "random", "sys", "time"],
+        "answer": "random"
+    },
+    {
+        "question": "Which function returns random integer?",
+        "options": ["rand()", "random()", "randint()", "shuffle()"],
+        "answer": "randint()"
+    },
+    {
+        "question": "Which function shuffles a list randomly?",
+        "options": ["shuffle()", "random()", "mix()", "sort()"],
+        "answer": "shuffle()"
+    },
+    {
+        "question": "Which keyword checks membership?",
+        "options": ["in", "has", "contains", "inside"],
+        "answer": "in"
+    },
+    {
+        "question": "What does 'in' operator return?",
+        "options": ["index", "boolean", "value", "string"],
+        "answer": "boolean"
+    },
+    {
+        "question": "What is the output of print(type('Hello'))?",
+        "options": ["<class 'str'>", "<class 'int'>", "<class 'char'>", "string"],
+        "answer": "<class 'str'>"
+    },
+    {
+        "question": "Which keyword is used to return a value from a function?",
+        "options": ["send", "return", "yield", "output"],
+        "answer": "return"
+    },
+    {
+        "question": "What is the default return value of a function?",
+        "options": ["0", "None", "False", "Empty"],
+        "answer": "None"
+    },
+    {
+        "question": "Which data type does input() return?",
+        "options": ["int", "float", "bool", "str"],
+        "answer": "str"
+    },
+    {
+        "question": "Which function converts input to float?",
+        "options": ["float()", "int()", "str()", "eval()"],
+        "answer": "float()"
+    },
+    {
+        "question": "What is the output of bool(0)?",
+        "options": ["True", "False", "0", "Error"],
+        "answer": "False"
+    },
+    {
+        "question": "What is the output of bool(1)?",
+        "options": ["False", "True", "1", "Error"],
+        "answer": "True"
+    },
+    {
+        "question": "Which operator is used for logical NOT?",
+        "options": ["!", "~", "not", "^"],
+        "answer": "not"
+    },
+    {
+        "question": "Which operator has the highest precedence?",
+        "options": ["+", "*", "**", "/"],
+        "answer": "**"
+    },
+    {
+        "question": "Which symbol is used for slicing?",
+        "options": [",", ":", ";", "."],
+        "answer": ":"
+    },
+
+    {
+        "question": "What does my_list[1:3] return?",
+        "options": ["One element", "Two elements", "Three elements", "Index error"],
+        "answer": "Two elements"
+    },
+    {
+        "question": "Which keyword checks object identity?",
+        "options": ["==", "equals", "is", "same"],
+        "answer": "is"
+    },
+    {
+        "question": "Which operator checks membership?",
+        "options": ["in", "is", "has", "contains"],
+        "answer": "in"
+    },
+    {
+        "question": "What is the output of 3 == 3.0?",
+        "options": ["True", "False", "Error", "None"],
+        "answer": "True"
+    },
+    {
+        "question": "Which function converts string to list?",
+        "options": ["list()", "split()", "array()", "tuple()"],
+        "answer": "list()"
+    },
+    {
+        "question": "Which method splits a string?",
+        "options": ["split()", "cut()", "slice()", "divide()"],
+        "answer": "split()"
+    },
+    {
+        "question": "Which method joins a list into string?",
+        "options": ["join()", "merge()", "combine()", "append()"],
+        "answer": "join()"
+    },
+    {
+        "question": "Which function finds maximum value in list?",
+        "options": ["top()", "max()", "largest()", "high()"],
+        "answer": "max()"
+    },
+    {
+        "question": "Which function finds minimum value in list?",
+        "options": ["min()", "low()", "small()", "least()"],
+        "answer": "min()"
+    },
+    {
+        "question": "Which function calculates sum of elements?",
+        "options": ["total()", "sum()", "add()", "calc()"],
+        "answer": "sum()"
+    },
+
+    {
+        "question": "Which function counts occurrences?",
+        "options": ["count()", "find()", "index()", "search()"],
+        "answer": "count()"
+    },
+    {
+        "question": "Which method returns index of element?",
+        "options": ["index()", "find()", "locate()", "search()"],
+        "answer": "index()"
+    },
+    {
+        "question": "Which keyword is used to create a set?",
+        "options": ["set", "{}", "[]", "()"],
+        "answer": "set"
+    },
+    {
+        "question": "Which set method adds an element?",
+        "options": ["append()", "add()", "insert()", "push()"],
+        "answer": "add()"
+    },
+    {
+        "question": "Which set method removes element safely?",
+        "options": ["remove()", "discard()", "pop()", "clear()"],
+        "answer": "discard()"
+    },
+    {
+        "question": "Which method removes all set elements?",
+        "options": ["delete()", "remove()", "clear()", "discard()"],
+        "answer": "clear()"
+    },
+    {
+        "question": "Which data type allows duplicates?",
+        "options": ["set", "dict", "list", "tuple"],
+        "answer": "list"
+    },
+    {
+        "question": "Which data type does not allow duplicates?",
+        "options": ["list", "tuple", "set", "str"],
+        "answer": "set"
+    },
+    {
+        "question": "Which keyword creates infinite loop?",
+        "options": ["for", "while True", "loop", "repeat"],
+        "answer": "while True"
+    },
+    {
+        "question": "Which function pauses execution for seconds?",
+        "options": ["sleep()", "wait()", "pause()", "stop()"],
+        "answer": "sleep()"
+    },
+
+    {
+        "question": "Which module provides sleep()?",
+        "options": ["random", "math", "time", "sys"],
+        "answer": "time"
+    },
+    {
+        "question": "Which keyword is used for multiple exceptions?",
+        "options": ["or", "and", "tuple", "list"],
+        "answer": "tuple"
+    },
+    {
+        "question": "Which keyword executes code if no error?",
+        "options": ["except", "finally", "else", "then"],
+        "answer": "else"
+    },
+    {
+        "question": "Which keyword raises an exception?",
+        "options": ["throw", "raise", "error", "except"],
+        "answer": "raise"
+    },
+    {
+        "question": "Which function returns iterable of numbers?",
+        "options": ["list()", "range()", "loop()", "iter()"],
+        "answer": "range()"
+    },
+    {
+        "question": "What is range(2, 6) output?",
+        "options": ["2 to 6", "2 to 5", "3 to 6", "3 to 5"],
+        "answer": "2 to 5"
+    },
+    {
+        "question": "Which symbol is used for unpacking?",
+        "options": ["&", "*", "#", "@"],
+        "answer": "*"
+    },
+    {
+        "question": "Which keyword creates anonymous function?",
+        "options": ["def", "func", "lambda", "anon"],
+        "answer": "lambda"
+    },
+    {
+        "question": "Which function filters elements?",
+        "options": ["map()", "filter()", "reduce()", "select()"],
+        "answer": "filter()"
+    },
+    {
+        "question": "Which function applies function to elements?",
+        "options": ["map()", "filter()", "apply()", "loop()"],
+        "answer": "map()"
+    },
+
+    {
+        "question": "Which module provides system functions?",
+        "options": ["sys", "os", "time", "math"],
+        "answer": "sys"
+    },
+    {
+        "question": "Which module interacts with operating system?",
+        "options": ["sys", "os", "path", "io"],
+        "answer": "os"
+    },
+    {
+        "question": "Which function exits program immediately?",
+        "options": ["exit()", "stop()", "sys.exit()", "quit()"],
+        "answer": "sys.exit()"
+    },
+    {
+        "question": "Which method converts string to uppercase?",
+        "options": ["upper()", "capitalize()", "title()", "big()"],
+        "answer": "upper()"
+    },
+    {
+        "question": "Which method converts string to lowercase?",
+        "options": ["lower()", "small()", "down()", "case()"],
+        "answer": "lower()"
+    },
+    {
+        "question": "Which method removes whitespace?",
+        "options": ["strip()", "trim()", "cut()", "remove()"],
+        "answer": "strip()"
+    },
+    {
+        "question": "Which operator performs bitwise AND?",
+        "options": ["and", "&", "|", "^"],
+        "answer": "&"
+    },
+    {
+        "question": "Which operator performs bitwise OR?",
+        "options": ["or", "|", "&", "^"],
+        "answer": "|"
+    },
+    {
+        "question": "Which operator performs bitwise XOR?",
+        "options": ["^", "&", "|", "~"],
+        "answer": "^"
+    },
+    {
+        "question": "Which operator inverts bits?",
+        "options": ["~", "!", "^", "&"],
+        "answer": "~"
+    }
+]
