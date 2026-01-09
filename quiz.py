@@ -10,20 +10,30 @@ def load_questions():
 def take_quiz():
     questions = load_questions()
     random.shuffle(questions)  # Randomize question order
+
+    # Limit to 10 questions
+    questions = questions[:10]
+
     score = 0
 
     for q in questions:
         print("\n" + q["question"])
-        for i, opt in enumerate(q["options"], 1):
+
+        # Randomize options
+        options = q["options"][:]   # make a copy
+        random.shuffle(options)
+
+        for i, opt in enumerate(options, 1):
             print(f"{i}. {opt}")
+
         answer = input("Enter the number of your answer: ")
 
         # Validate input
-        if not answer.isdigit() or int(answer) < 1 or int(answer) > len(q["options"]):
+        if not answer.isdigit() or int(answer) < 1 or int(answer) > len(options):
             print("Invalid choice. Skipping question.")
             continue
 
-        if q["options"][int(answer)-1] == q["answer"]:
+        if options[int(answer) - 1] == q["answer"]:
             print("✅ Correct!")
             score += 1
         else:
